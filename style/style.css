@@ -187,20 +187,32 @@ h1, h2, h3 {
 	text-align: center;
 }
 
-.expeirence table, td, th {
-  margin: 10px;
-	border: 1px solid black;
-	border-collapse: collapse;
+.expeirence table {
+  margin: 20px;
+  border-collapse: collapse;
 }
 
-tr:hover {
+.expeirence td, th {
+	border: 1px solid #000000;
+}
+
+tr:nth-child(even) {
   background-color: #f5f5f5;
 }
 
+tbody tr:hover {
+  background-color: #f5f5f5;
+  opacity: 0.5;
+}
 
-.expeirence th, td {
-	padding: 5px;
+.expeirence th {
+  padding: 10px;
   text-align: center;
+}
+
+.expeirence td {
+  padding: 5px;
+  text-align: left;
 }
 
 .year {
